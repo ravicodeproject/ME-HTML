@@ -1,0 +1,53 @@
+.logo{
+    width: 150px;
+    float: left;
+}
+img{
+    width: 150px;
+    height: 50px;
+}
+.example{
+    float: left;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: x-large;
+}
+.features{
+    /* margin-left: 300px; */
+    float: left;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: x-large;
+    width: 30px;
+    height: 50px; 
+}
+.enterprise{
+    margin-left: 100px;
+    float: left;
+    margin-top: 20px;
+    font-size: x-large;
+    width: 30px;
+    height: 50px;
+}
+.support{
+ margin-left: 100px;
+    float: left;
+    margin-top: 20px;
+    font-size: x-large;
+    width: 30px;
+    height: 50px;
+}
+.pricing{
+    margin-left: 100px;
+    float: left;
+    margin-top: 20px;
+    font-size: x-large;
+    width: 30px;
+    height: 50px;
+}
+.underline-none{
+    text-decoration: none;
+} 
+
+
