@@ -1,45 +1,30 @@
-.logo{
-    /* background-color: aqua; */
+.logo {
     width: 150px;
-    /* margin-left: 20px;
-    margin-top: 20px;
-    padding: 8px; */
     float: left;
 }
-img{
+img {
     width: 150px;
     height: 50px;
 }
-.home{
-float: left;
-margin-left: 20px;
-margin-top: 20px;
-text-align:start;
-font-size: x-large;
-width: 150px;
-height: 50px;
-padding: 20px;
-}
-.login{
-    margin-left: 300px;
+.company-name {
     float: left;
-    margin-top: 20px;
-    text-align:start;
-    font-size: x-large;
-    width: 30px;
-    height: 50px;
-    padding: 20px;  
+    width: 200px;
+    font-size: 24px;
+    margin-left: 25px;
 }
-.search{
+nav {
     float: left;
-    margin-top: 20px;
-    text-align:start;
-    font-size: x-large;
-    width: 50px;
-    height: 50px;
-    padding: 20px; 
+    width: calc(100% - 395px);
 }
-.search_Bar{
-    margin-left: 900px;
+.nav-link {
+    float: right;
+    margin-left: 20px;
+    font-size: 24px;
 }
-
+.text-element {
+    line-height: 24px;
+    padding: 13px 0 13px 0;
+}
+.underline-none {
+    text-decoration: none;
+}
