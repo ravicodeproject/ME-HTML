@@ -1,6 +1,3 @@
-.header{
-    background-color: lightgray;
-}
 .logo{
     width: 150px;
     float: left;
@@ -49,5 +46,8 @@ img{
     width: 30px;
     height: 50px;
 }
+.underline-none{
+    text-decoration: none;
+} 
 
 
