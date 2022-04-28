@@ -1,12 +1,15 @@
 body{
-    background-color: aqua;
+    box-sizing: border-box;
+    margin: 0px 150px;
+    background-color: #f8f9fa;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 #header{
     width: 100%;
     height: 80px;
     align-items: center;
     padding: 15px;
-    background-color: black;
     box-sizing: border-box;  
 }
 .logo {
@@ -20,9 +23,11 @@ img {
 .company-name {
     float: left;
     width: 200px;
-    font-size: 24px;
+    font-size: calc(1.275rem + .3vw)!important;;
     margin-left: 25px;
-    color: aqua;
+}
+.name{
+    text-decoration: none;
 }
 nav {
     float: left;
@@ -32,25 +37,85 @@ nav {
     float: right;
     margin-left: 20px;
     font-size: 24px;
-    /* text-transform: capitalize; */
+    text-transform: capitalize;
+    color: rgba(var(--bs-dark-rgb),var(--bs-text-opacity))!important;;
+
+}
+.nav-link a{
+    text-decoration: none;
 }
 .text-element {
     line-height: 24px;
     padding: 13px 0 13px 0;
-    
 }
-.underline-none {
-    text-decoration: none;
+.h1{
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1;
+    font-size: calc(1.275rem + .3vw)!important;;
+
 }
-a:link{
+.paragraph{
+    text-align: center;
+    margin: 0% 32%;
+}
+.hr{
+    margin: 0px 17px;
+    border-top: 1px solid lightslategray;
+}
+.packages {
+    float: left;
+    margin-left: 32px;
+    border: 1px solid;
+    margin-top: 30px;
+    border-radius: 2px;
+}
+.sub-heading{
+    text-align: center;
+    padding: 8px;
+}
+.enterprise{
+    background-color: #0d6efd ;
+}
+.pre{
+    box-sizing: border-box;
+    margin: 25px 80px 25px 0px;
+}
+.border-division{
+    border-bottom: 1px solid;
+
+}
+.bottom{
+    text-align: center;
+    border: 1px solid;
+    margin: 20px 10px;
+    border-radius: 2px;
+    background-color: #0d6efd;
     color: white;
 }
-a:visited{
-    color: purple;
+.main{
+    text-align: center;
 }
-a:hover{
-    color: red;
+.compare-plans{
+    clear: left;
+    text-align: center;
+    padding: 30px; 
+    font-size: 40px;   
 }
-a:active{
-    color:yellow;
+.table{
+    /* border: 1px solid; */
+    width: 100%;
+    padding:10px;
+}
+.th{
+    text-align: left;
+    border-bottom: 1px solid lightslategray;
+}
+.td{
+    border-bottom: 1px solid lightslategray;
+    text-align: center;
+}
+.end{
+    float: left;
+    margin-right: 75px;
 }
